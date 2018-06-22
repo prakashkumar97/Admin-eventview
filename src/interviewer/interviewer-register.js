@@ -14,23 +14,34 @@ class InterviewRegister extends Component{
                  </div>
                  <div className="box">
                  <form>
-                 <div class="form-group">
+                 <div class="form-group1">
                  <label for="class">Name:</label>
                  <input className="input" type="text" id="iname"/>
                     </div>
-                    <div class="form-group">
+                    <br />
+                    <br />
+                    <div class="form-group2">
                     <label for="class">email:</label>
                     <input className="input" type="text" id="iemail"/>
                     </div>
-                    <div class="form-group">
+                    <br />
+                    <br />
+                    <div class="form-group3">
                     <label for="class">Mobile Number:</label>
                     <input className="input" type="text" id="imobile"/>
                     </div>
-                    <div class="form-group">
+                    <br />
+                    <br />
+                    <div class="form-group5">
                     <label for="class">Skills:</label>
+                    <input className="input" type="text" id="iskill"/>
                     </div>
+                    <br />
+                    <br />
+                    <div class="btn">
                      <button id="iclear">Clear</button>
                      <button id="iregister">Register</button>
+                     </div>
                      </form>
                      </div>
             </div>

@@ -37,10 +37,30 @@ h3{
     }
 
 .box{
-    
+    margin-top: 8vh;
+    margin-left:30vh;
     height: 400px;
     width: 350px; 
     border: 2px solid black;
 }
 
+.form-group1{
+    margin-top:4vh;
+    margin-left:11vh;
+}
 
+.btn{
+    margin-top:4vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.form-group2{
+    margin-left:12vh;
+}
+.form-group3{
+    margin-left:3vh;
+}
+.form-group5{
+    margin-left:12vh;
+}
