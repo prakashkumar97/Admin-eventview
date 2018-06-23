@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import './Event-adminview.css';
 class Event_adminheader extends Component {
     render() {
         return (

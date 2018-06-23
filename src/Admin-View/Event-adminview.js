@@ -1,12 +1,17 @@
 import React, { Component } from 'react';
 import './Event-adminview.css';
 import Event_adminheader from './Event-adminheader';
+import { Link } from 'react-router-dom';
 class Event_adminview extends Component {
     render() {
         return (
     <div>
         <div className="main-container" id="main-con">
             <Event_adminheader />
+            <div className="linkposition">
+            <Link to="/view">View</Link>
+             <Link to="/update">Update</Link>
+             </div>
            <div className="box {btn_class}">
                 <div className="innerbox1">
                 <div className="doubleinnerbox1">
